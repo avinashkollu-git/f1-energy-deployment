@@ -22,7 +22,7 @@ Calibrated: mu = 1.80, CdA = 1.20 m^2 (defaults in model.Car: mu = 1.80, CdA = 1
 | rule-based | 86.048 s | +2.705 s | 2.32 MJ | 3.05 MJ | 2.46 MJ | 0.26 MJ | 0 m | deploy above 288 km/h |
 | dynamic programming | 83.343 s | +0.000 s | 5.55 MJ | 6.21 MJ | 2.06 MJ | 0.00 MJ | 355 m | DP predicted 83.343 s |
 
-All three strategies took 4.0 s to compute (Python).
+All three strategies took 4.1 s to compute (Python).
 
 ## C++ core vs Python
 
@@ -32,4 +32,4 @@ All three strategies took 4.0 s to compute (Python).
 | rule-based | 86.047852 s | 86.047852 s | 7.1e-14 m/s | 7.5e-09 J |
 | dynamic programming | 83.342679 s | 83.342679 s | 8.5e-14 m/s | 6.6e-09 J |
 
-One lap (1152 steps of 5 m): Python 19.11 ms, C++ 67.3 us (incl. ctypes call) -> **284x faster**
+One lap (1152 steps of 5 m): Python 19.50 ms, C++ 68.4 us (incl. ctypes call) -> **285x faster**
