@@ -1,0 +1,6 @@
+.venv/
+build/
+data/cache/
+__pycache__/
+.pytest_cache/
+results/run.npz
