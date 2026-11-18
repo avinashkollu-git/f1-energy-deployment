@@ -1,4 +1,5 @@
 // Unit tests for the C++ core. No framework: each check prints and counts failures.
+#include <algorithm>
 #include <cmath>
 #include <cstdio>
 #include <vector>
